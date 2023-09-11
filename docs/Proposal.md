@@ -60,4 +60,4 @@ Types of Districts associated with Drugs:
 - Assessing the correlation between drug usage patterns and neighborhoods from 2013 to 2018. Identifying prospective neighborhoods or regions where the San Francisco government could establish safe injection sites.
 - Forecasting the specific type or category of crime based on the spatial and temporal characteristics provided.
 
-We’ll be training multiple ML models to train and explore the results and analysis.
+I will be training multiple ML models to train and explore the results and analysis.
