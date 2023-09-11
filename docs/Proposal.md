@@ -30,10 +30,12 @@ The database of the San Francisco police department is used to collect data. Dat
 Data Info:
 Below we can see that Variables and its types Associated with the data and data size.
  
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Jettem_Sushma/assets/144371682/9f0a2f25-2e40-46cb-937e-026ded18f0e0)
 
 Below we can see Different Category of Crimes and its Reports.
  
 
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Jettem_Sushma/assets/144371682/0c43ac06-c737-4768-9665-bd8191c5dc9e)
 
 
 
@@ -41,9 +43,11 @@ Below we can see Different Category of Crimes and its Reports.
 
 Let’s Focus on Drugs:
  
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Jettem_Sushma/assets/144371682/d38ff480-bdfc-4be2-8d84-60dbdf9fe71f)
 
 Types of Districts associated with Drugs:
  
+![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Jettem_Sushma/assets/144371682/5b5d3fcc-7223-4c9f-8504-6bd5e6c0cfdc)
 
 Target Variables:
 •	Examining the relationship between crime types and neighborhoods spanning from 2003 to 2018. Are there specific crime categories that tend to happen together frequently in particular areas?
