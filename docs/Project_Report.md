@@ -132,5 +132,5 @@ Synthetic minority oversampling technique, or SMOTE, is the oversampling method.
  
 (AUC after SMOTE)
 
-# Inference: 
+#Inference: 
 We came to the conclusion that our issue required more than a binary logistic regression, or Binary LR. For example, we might have a very high false positive rate if we allocated government resources based on these projections. We needed to go further since simply identifying geo-coordinates or regions with high rates of drug-related or non-narcotics-related crime is insufficient. For example, we would prefer to devote more resources in areas with high rates of murder than arson. Consequently, it is possible to train other multi-class models as Random Forest, XGBoost, KNN, and Multinomial Logistic Regression (Multinomial LR).
