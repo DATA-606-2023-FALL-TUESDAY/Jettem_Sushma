@@ -1,37 +1,40 @@
 ##				REPORT
 
-### Project Title:  Addressing the Opioid Epidemic: A National Public Health Challenge 
+## 1. Project Title:  Addressing the Opioid Epidemic: A National Public Health Challenge 
 #### Domain: Government / Health
 
 - **Author's Name** - Sushma Jettem
 - **Prepared for** - UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - **Semester** - Fall 2023
+  
 - <a href="https://github.com/sushmajettem05"><img align="left" src="https://img.shields.io/badge/-GitHub-181717?logo=github&style=flat" alt="icon | GitHub"/></a>
-## Abstract:
-In the United States, drug overdoses have emerged as the primary cause of unintentional fatalities, accounting for 52,404 lethal incidents in 2015. Opioid addiction serves as the driving force behind this epidemic, contributing to 20,101 overdose deaths linked to prescription pain relievers and 12,990 overdose deaths associated with heroin in the same year (CDC, ASAM). The effective distribution and administration of Narcan (naloxone HCl) plays a pivotal role in reducing mortality rates resulting from opioid overdoses.
-The term "War on Drugs" describes a government-led effort initiated in the 1970s to combat illegal drug usage, distribution, and trade by intensifying penalties for those involved. This initiative has continued to evolve over the years and has resulted in an opioid crisis in several US states. Presently, there is a contentious debate about whether this opioid crisis is primarily a result of Mexican and Central American migration or stems from the deregulation of pharmaceutical companies and shortcomings in the private healthcare system. At this moment, San Francisco is confronting a significant drug issue and opioid crisis.
+-
+- 
+
+## 2. Background: Tackling the Opioid Crisis in the United States and San Francisco
+
+In the United States, drug overdoses have become the primary cause of unintentional deaths, with opioids driving a significant portion of these fatalities. The historical "War on Drugs" initiative, initiated in the 1970s, has evolved over time, contributing to an opioid crisis across several states. San Francisco, known for pioneering progressive health solutions, is currently facing a substantial drug issue and opioid crisis.
+
+To combat this, the city has embraced innovative approaches, including Safe Injection Sites (SIS). SIS provides supervised spaces for individuals to consume intravenous drugs, aiming to reduce public disturbances associated with drug use. San Francisco's commitment to harm reduction aligns with its history of implementing forward-thinking public health measures. As we delve into this paper, we'll explore the origins of the opioid crisis, the impact of the "War on Drugs," and the novel strategies, such as Safe Injection Sites, implemented by San Francisco to address this pressing public health challenge.
+
 ## Research question: 
-•	Analyzing various crime categories across diverse neighborhoods: What are the top 5 neighborhoods with the highest rates of assaults? Are there specific combinations of crimes that commonly occur together in particular areas?
-•	Identifying potential locations for implementing Safe Injection Sites (SIS) on behalf of the San Francisco government.
-•	Do specific demographic groups or geographical areas experience a higher incidence of fatal opioid overdoses? 
-•	If such disparities exist, is there a discernible connection between prescription practices and opioid-related deaths within these demographics or regions?
+- Analyzing various crime categories across diverse neighborhoods: What are the top 5 neighborhoods with the highest rates of assaults? Are there specific combinations of crimes that commonly occur together in particular areas?
+- Identifying potential locations for implementing Safe Injection Sites (SIS) on behalf of the San Francisco government.
+- Do specific demographic groups or geographical areas experience a higher incidence of fatal opioid overdoses? 
+- If such disparities exist, is there a discernible connection between prescription practices and opioid-related deaths within these demographics or regions?
 
-## Introduction:
-	Natural derivatives of Opium like heroin are called Opiates which are illegal. Similar synthetically synthesized drugs have been put under the class of Opioids which are legally available. Opioids are prescribed primarily as pain relievers despite a high risk of addiction and overdose. The increase in deaths caused by the risks involved with the consumption of opioids was alarming and declared an epidemic.
-San Francisco (SF) has a rich history of pioneering progressive public health solutions, such as medical cannabis and needle exchange programs, even before they were legally accepted or widely adopted. This commitment to innovation is exemplified by California passing a bill that permits SF to establish. 
-Safe Injection Sites (SIS).
-Safe Injection Sites (SIS): Safe Injection Sites are supervised medical facilities designed to offer a clean and supportive environment where individuals can safely consume intravenous recreational drugs, thus reducing public drug use-related disturbances. These sites are part of a harm reduction strategy in addressing drug-related issues. The first SIS in North America was established in the Downtown Eastside (DTES) neighborhood of Vancouver in 2003.
 
-# Dataset:
-## Data sources/tools: 
-•	https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry/data
-•	https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783/data
+## 3. Data:
+- **Data sources/tools:** 1. https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry/data
+2) https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783/data
 
-The database of the San Francisco police department is used to collect data. Data on crimes from January 2003 to May 2018 is historical. There are 2215024 rows and 13 columns in the dataset.
+The San Francisco Police Department's database serves as the repository for collecting crime data. This historical dataset spans from January 2003 to May 2018. 
+**Data Size:** - 219.7 MB
+**Data shape** -
+  - Rows = 2,215,024
+  - Columns = 13 
 
 ![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Jettem_Sushma/assets/144371682/34253b2a-7d46-447a-a533-b49611b60108)
-
-
  
 ## Data Info:
 Below we can see that Variables and its types Associated with the data and data size.
@@ -43,9 +46,6 @@ Below we can see Different Category of Crimes and its Reports.
 ![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Jettem_Sushma/assets/144371682/59cc821b-1d41-4206-9120-193a34d2e441)
 
 
-
-
-
 ### Let’s Focus on Drugs:
  
 
@@ -54,15 +54,7 @@ Types of Districts associated with Drugs:
 ![image](https://github.com/DATA-606-2023-FALL-TUESDAY/Jettem_Sushma/assets/144371682/82d19b1c-8052-4b6d-bb2d-5cb212d1deda)
 
 
-## Target Variables:
-•	Examining the relationship between crime types and neighborhoods spanning from 2003 to 2018. Are there specific crime categories that tend to happen together frequently in particular areas?
-•	Assessing the correlation between drug usage patterns and neighborhoods from 2013 to 2018. Identifying prospective neighborhoods or regions where the San Francisco government could establish safe injection sites.
-•	Forecasting the specific type or category of crime based on the spatial and temporal characteristics provided.
-
-
-
-
-
+- **Target Variable(s)** - Category, Drug, Crime.
 
 # Literature Review
 We utilized a random forest classifier to forecast opioid dependence according to ICD-9 codes, achieving an impressive F1 score of 0.776. Che et al. employed a recurrent neural network (RNN) to categorize opioid users as long-term users, short-term users, or opioid-dependent patients using diagnostic, procedural, and prescription data. Their top AUCROC score for detecting opioid-dependent patients (OD) reached approximately 0.8.
