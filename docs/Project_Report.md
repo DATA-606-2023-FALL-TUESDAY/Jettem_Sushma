@@ -6,7 +6,7 @@
 - **Author's Name** - Sushma Jettem
 - **Prepared for** - UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - **Semester** - Fall 2023
-- <a href="https://https://github.com/sushmajettem05"><img align="left" src="https://img.shields.io/badge/-GitHub-181717?logo=github&style=flat" alt="icon | GitHub"/></a>
+- <a href="https://github.com/sushmajettem05"><img align="left" src="https://img.shields.io/badge/-GitHub-181717?logo=github&style=flat" alt="icon | GitHub"/></a>
 ## Abstract:
 In the United States, drug overdoses have emerged as the primary cause of unintentional fatalities, accounting for 52,404 lethal incidents in 2015. Opioid addiction serves as the driving force behind this epidemic, contributing to 20,101 overdose deaths linked to prescription pain relievers and 12,990 overdose deaths associated with heroin in the same year (CDC, ASAM). The effective distribution and administration of Narcan (naloxone HCl) plays a pivotal role in reducing mortality rates resulting from opioid overdoses.
 The term "War on Drugs" describes a government-led effort initiated in the 1970s to combat illegal drug usage, distribution, and trade by intensifying penalties for those involved. This initiative has continued to evolve over the years and has resulted in an opioid crisis in several US states. Presently, there is a contentious debate about whether this opioid crisis is primarily a result of Mexican and Central American migration or stems from the deregulation of pharmaceutical companies and shortcomings in the private healthcare system. At this moment, San Francisco is confronting a significant drug issue and opioid crisis.
