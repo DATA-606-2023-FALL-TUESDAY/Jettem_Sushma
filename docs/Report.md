@@ -4,7 +4,7 @@
 #### Domain: Government / Health
 
 - **Author's Name:** Sushma Jettem
-- **Prepared for:**  UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
+- **Prepared for:**  UMBC Data Science Master's Degree Capstone by Dr Chaojie (Jay) Wang
 - **Semester:** Fall 2023
 
 - <a href="https://www.youtube.com/watch?v=sPD5mj7OKy8"><img align="left" src="https://img.shields.io/badge/-YouTube Presentation-FF0000?logo=youtube&style=flat" alt="icon | YouTube"/></a> 
