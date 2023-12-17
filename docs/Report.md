@@ -12,7 +12,7 @@
 
 - <a href="https://github.com/DATA-606-2023-FALL-TUESDAY/Jettem_Sushma/blob/main/docs/Final_Presentation.pptx"><img src="https://img.shields.io/badge/-PowerPoint Presentation Download-B7472A?logo=microsoftpowerpoint&style=flat" alt="icon | GitHub"/></a>  
  
-- <a href="https://github.com/sushmajettem05"><img align="left" src="https://img.shields.io/badge/-GitHub-181717?logo=github&style=flat" alt="icon | GitHub"/></a>
+- <a href="https://github.com/DATA-606-2023-FALL-TUESDAY/Jettem_Sushma/tree/main"><img align="left" src="https://img.shields.io/badge/-GitHub-181717?logo=github&style=flat" alt="icon | GitHub"/></a>
 
 
   
